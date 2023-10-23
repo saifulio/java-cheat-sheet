@@ -29,6 +29,12 @@ capitalCities.remove("England");
 capitalCities.clear();
 ```
 
+## Check if an item exists
+
+```java
+capitalCities.containsKey("England");
+```
+
 ## HashMap size
 
 ```java
