@@ -33,6 +33,15 @@ class PriorityQueueDemo {
 }
 ```
 
+## Declaring
+
+```java
+// Another way
+List<Integer> ints = Arrays.asList(222, 555, 666, 333, 111, 888, 777, 444);
+Queue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+pq.addAll(ints);
+```
+
 ## Add Item
 
 ```java
